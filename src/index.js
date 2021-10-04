@@ -5,9 +5,7 @@ import './index.css';
 import App from './components/App';
 import movies from './reducers'
 
-
 const store = createStore(movies);
-console.log("Store" , store.getState())
 
 ReactDOM.render(
   <React.StrictMode>
